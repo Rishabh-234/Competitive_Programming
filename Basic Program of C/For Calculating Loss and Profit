@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	int c,s,p,l;
+	printf("enter cost prize : ");
+	scanf("%d",&c);
+	printf("enter selling prize : ");
+	scanf("%d",&s);
+	if(s>c)
+	{
+		p=s-c;
+		printf("profit = %d",p);
+	}
+	else
+	{
+		l=s-c;
+		printf("loss = %d",l);
+	}
+}
