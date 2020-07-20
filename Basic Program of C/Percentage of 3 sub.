@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+	int p,c,m,t,f;
+	printf("enter first number : ");
+	scanf("%d",&p);
+	printf("enter second number : ");
+	scanf("%d",&c);
+	printf("enter third number : ");
+	scanf("%d",&m);
+	t=p+c+m;
+	printf("sum of numbers is : %d\n",t);
+	f=t/3;
+	printf("percentage of all numbers : %d",f);
+}
