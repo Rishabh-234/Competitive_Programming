@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	float s,n,b;
+	printf("enter salary : ");
+	scanf("%f",&s);
+	if (s>10000)
+	{
+		b=s*0.04;
+	}
+	else
+	{
+		b=s*0.02;
+	}
+	n=s+b;
+	printf("net=%f",n);
+}
