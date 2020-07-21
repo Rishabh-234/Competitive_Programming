@@ -1,0 +1,32 @@
+#include<stdio.h>
+main()
+{
+	char vowel;
+	scanf("%c",&vowel);
+	if (vowel == 'a')
+	{
+		printf("vowel");
+	}
+	else if (vowel == 'e')
+	{
+		printf("vowel");
+	}
+	else if (vowel == 'i')
+	{
+		printf("vowel");
+	}
+	else if (vowel == 'o')
+	{
+		printf("vowel");
+	}
+	
+
+else if (vowel == 'u')
+	{
+		printf("vowel");
+	}
+	else 
+	{
+		printf("not vowel");
+	}
+}
