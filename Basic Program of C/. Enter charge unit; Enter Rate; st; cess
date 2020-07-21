@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	float u,r,a,st,cess,net;
+	printf("enter charge unit : ");
+	scanf("%f", &u);
+	printf("enter rate : ");
+	scanf("%f",&r);
+	a=0.16;
+	st=a*0.14;
+	cess=st*0.08;
+	net=a+st+cess;
+	printf("net=%f",net);
+}
