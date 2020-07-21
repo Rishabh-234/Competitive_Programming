@@ -1,0 +1,25 @@
+#include<stdio.h>
+main()
+{
+	char g;
+	float s,b;
+	printf("enter grade : ");
+	scanf("%c",&g);
+	printf("enter salary : ");
+	scanf("%f",&s);
+	if (s>10000)
+	{
+		if (g == 'a')
+		   b = s*0.12;
+		else if (g == 'b')
+		   b = s*0.10;
+	}
+	else 
+	{
+		if (g == 'a')
+		   b = s*0.10;
+		else if (g == 'b')
+		   b = s*0.8;
+	}
+	printf("net amount : %f", s+b);
+}
