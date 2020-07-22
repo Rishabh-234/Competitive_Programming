@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	char vowel;
+	printf("enter any letter : ");
+	scanf("%c",&vowel);
+	switch(vowel)
+	{
+		case 'a' :
+		case 'e' :
+		case 'i' :
+		case 'o' :
+		case 'u' : printf("vowel"); break;
+		default : printf("not a vowle");
+	}
+}
