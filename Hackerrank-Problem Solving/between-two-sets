@@ -23,7 +23,6 @@ int main()
                 break;
             }
         }
-        
         if(flag1 == 0)
         {
             for(j=0;j<m;j++)
