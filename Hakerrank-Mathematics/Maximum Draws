@@ -1,0 +1,13 @@
+#include<stdio.h>  
+ int main()
+ {  
+   int t;  
+   scanf("%d",&t);  
+   while(t--)
+   {  
+     unsigned long num;  
+     scanf("%lu",&num);  
+     printf("%lu\n",num+1);  
+   }  
+   return 0;  
+ }  
