@@ -4,23 +4,17 @@ int main()
 {
     int t;
     int n[50000];
-
-
     scanf("%d", &t);
-
     int i;
     for(i=0;i<t;i++)
     {
-        
         scanf("%d", &n[i]);
     }
-  
     int handshake[5000];
     for(i=0;i<t;i++)
     {
         handshake[i]=(n[i]*(n[i]-1)/2);
     }
-   
     for(i=0;i<t;i++)
     {
         printf("%d\n", handshake[i]);
