@@ -6,26 +6,15 @@ int main()
     printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
     char aj[1000], mj[1000];
     int i = 0, j = 0, len;
-
     printf("\n\nEnter the string: ");
     gets(aj);
-
-    len = strlen(aj);   // len stores the length of the input string
-
-    while(aj[i] != '\0')    // till string doesn't terminate
+    len = strlen(aj);
+    while(aj[i] != '\0')
     {
-        if(aj[i] != ' ')  // if the char is not a white space
+        if(aj[i] != ' ')
         {
-            /* 
-                incrementing index j only when 
-                the char is not space
-            */
             mj[j++] = aj[i];
         }
-        /*
-            i is the index of the actual string and 
-            is incremented irrespective of the spaces
-        */
         i++;
     }
     mj[j] = '\0';
