@@ -10,17 +10,13 @@ int main()
     printf("For example, ASCII value of a = %d and that of A = %d.\n\n\n ", 'a', 'A');
     printf("\n\nLet's first get the concept:\n ");
     printf("\n\nThe lowercase equivalent of letter 'A' is '%c' ",'A'+32);
-
     int aj = 0;
     char mj[] = " \n\n\n\n\"KEEP LEARNING, AS WHAT YOU KNOW WILL NEVER BE ENOUGH!\"\n\n";    // original uppercase string
-
-    while(mj[aj])   // until string terminates
+    while(mj[aj])
     {
-        // converting one character at a time
         putchar(tolower(mj[aj]));
         aj++;
     }
-
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
     return 0;
 }
