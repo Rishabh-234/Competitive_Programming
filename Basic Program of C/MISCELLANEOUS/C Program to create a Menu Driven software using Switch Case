@@ -5,7 +5,6 @@ int main()
     printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
     int choice, num, i;
     unsigned long int fact;
-
     while(1)
     {
         printf("1. Factorial \n");
@@ -14,7 +13,6 @@ int main()
         printf("4. Exit\n\n\n");
         printf("Enter your choice :  ");
         scanf("%d",&choice);
-        
         switch(choice)
         {
             case 1:
@@ -27,7 +25,6 @@ int main()
                 }
                 printf("\n\nFactorial value of %d is = %lu\n\n\n",num,fact);
                 break;
-        
             case 2:
                 printf("Enter number:\n");
                 scanf("%d", &num);
@@ -42,29 +39,22 @@ int main()
                     }
                 
                 }
-                /*
-                    Not divisible by any number other 
-                    than 1 and itself
-                */
                 if(i == num) 
                 {
                     printf("\n\n%d is a Prime number\n\n", num);
                     break;
                 }
-        
             case 3:
                 printf("Enter number:\n");
                 scanf("%d", &num);
-        
-                if(num%2 == 0) // 0 is considered to be an even number
+                if(num%2 == 0)
                     printf("\n\n%d is an Even number\n\n",num);
                 else
                     printf("\n\n%d is an Odd number\n\n",num);
                 break;
-        
             case 4:
                 printf("\n\n\t\t\tCoding is Fun !\n\n\n");
-                exit(0);    // terminates the complete program execution
+                exit(0);
         }
     }
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
