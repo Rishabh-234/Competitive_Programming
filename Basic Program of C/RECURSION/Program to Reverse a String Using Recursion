@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-// declaring recursive function
 char* reverse(char* str);
-
 void main()
 {
     int i, j, k;
@@ -16,8 +14,6 @@ void main()
     printf("The reversed string is: %s\n", rev);
     getch();
 }
-
-// defining the function
 char* reverse(char *str)
 {
     static int i = 0;
