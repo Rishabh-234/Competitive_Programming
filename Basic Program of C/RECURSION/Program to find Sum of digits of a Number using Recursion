@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-//declaring the recursive function
 int sumOfDigit(int num);
-
 void main()
 {
     int num, sum;
@@ -14,7 +12,6 @@ void main()
     printf("The sum of digits of %d is: %d", num, sum);
     getch();
 }
-
 int sumOfDigit(int num)
 {
     int s, a;
