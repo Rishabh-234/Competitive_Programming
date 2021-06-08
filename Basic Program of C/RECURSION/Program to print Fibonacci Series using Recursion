@@ -1,7 +1,6 @@
 #include<stdio.h>
-// declaring the function
-void printFibo(int );
 
+void printFibo(int );
 int main()
 {
     printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
@@ -15,7 +14,6 @@ int main()
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
     return 0;
 }
-
 void printFibo(int aj)
 {
     static long int first = 0, second = 1, sum;
@@ -25,11 +23,10 @@ void printFibo(int aj)
         first = second;
         second = sum;
         printf("%ld ", sum);
-        printFibo(aj-1);    // recursive call
+        printFibo(aj-1);
     }
     else
     {
-        // after the elements, for line break
         printf("\n\n\n");
     }
 }
