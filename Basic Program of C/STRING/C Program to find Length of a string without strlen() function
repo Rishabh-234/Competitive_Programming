@@ -5,13 +5,9 @@ int main()
     printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
     char aj[1000];
     int i = 0;
-
     printf("\n\nEnter the string: ");
     gets(aj);
-
-    // \0 marks the end of the string
-    for(i = 0; aj[i] != '\0' ;i++);   // updation is done after checking condition
-
+    for(i = 0; aj[i] != '\0' ;i++);
     printf("\n\nThe length of the input string is :  %d", i);
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
     return 0;
