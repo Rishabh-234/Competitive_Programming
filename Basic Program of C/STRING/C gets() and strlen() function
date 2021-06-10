@@ -6,19 +6,9 @@ int main()
     printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
     char a[100];
     int length;
-
     printf("\n\nEnter a string you wish to calculate the length of :   ");
-    /*
-        to take a single string (including spaces) 
-        as input at a time
-    */
     gets(a);
-    /*
-        Return the length of the string 
-        or the number of characters in the string
-    */
     length = strlen(a);
-
     printf("\n\nThe length of the input string is: %d\n\n", length);
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
     return 0;
